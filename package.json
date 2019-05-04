@@ -1,0 +1,30 @@
+{
+  "name": "project-euler",
+  "version": "1.0.0",
+  "description": "https://projecteuler.net/about",
+  "main": "Multiples of 3 and 5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaQadosch/Project-Euler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaQadosch/Project-Euler/issues"
+  },
+  "homepage": "https://github.com/HaQadosch/Project-Euler#readme",
+  "devDependencies": {
+    "husky": "^2.2.0",
+    "prettier": "^1.17.0",
+    "pretty-quick": "^1.10.0"
+  }
+}
